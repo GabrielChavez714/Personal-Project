@@ -1,0 +1,228 @@
+.Products {
+    width: 100;
+    height: 850px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.product-box {
+    width: 250px;
+    height: 35px;
+    padding: 13px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.individual-product {
+    width: 225px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.product-list {
+    width: 1100px;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Ramabhadra', sans-serif;
+    background-color: white;
+}
+
+.product-images {
+    width: 1100px;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 37px;
+}
+
+.snowboard1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.snowboard2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.snowboard3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.bindings1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.bindings2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.bindings3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.boots1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.boots2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.boots3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.helmet1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.helmet2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.helmet3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.49);
+}
+
+.rent {
+    width: 70px;
+    margin-top: 250px;
+    border-radius: 4px;
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+.rent:hover {
+    cursor: pointer;
+}
+
+/* .product-name{
+    font-size: 200px;
+    padding-bottom: 10px;
+    color: lawngreen;
+    background-color: khaki;
+}
+
+.product-price {
+    font-size: 27px;
+    color: rgb(25, 0, 252);
+} */
+
+@media (max-width: 996px) {
+    .Products {
+        height: 1200px;
+    }
+
+    .product-images {
+        width: 800px;
+        height: 1100px;
+        margin-top: 11px;
+    }
+
+    .product-list {
+        width: 800px;
+        height: 1100px;
+        margin-top: 40px;
+    }
+
+    .description-list {
+        width: 900px;
+        top: 1350px;
+    }
+
+    .description-box {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 756px) {
+    .description-list {
+        width: 600px;
+        height: 1000px;
+        top: 1350px;
+    }
+
+    .description-box {
+        width: 250px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 667px) {
+    .Products {
+        height: 2375px;
+    }
+
+    .product-images {
+        width: 300px;
+        height: 2300px;
+        margin-top: 19px;
+    }
+
+    .product-list {
+        width: 300px;
+        height: 2300px;
+        margin-top: 40px;
+    }
+
+    .description-list {
+        width: 400px;
+        height: 1600px;
+        top: 2575px;
+    }
+
+    .description-box {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+}

@@ -1,0 +1,99 @@
+.landing {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url(https://wallpapershome.com/images/wallpapers/the-fourth-phase-2560x1440-5k-4k-wallpaper-8k-travis-rice-snow-8206.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* https://snowgaper.com/wp-content/uploads/2020/02/Boreal-Night-Skiing-Resort.jpg
+
+   https://wallpaperaccess.com/full/83506.jpg
+
+*/
+
+
+.auth {
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 auto;
+    margin-top: 30vh;
+    background-color: rgba(100, 162, 180, 0.829);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -5px rgb(2, 47, 59);
+}
+
+.login {
+    padding-bottom: 4vh;
+    
+}
+
+.login-email {
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+.login-pass {
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.login-btn {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.login-text {
+    padding-bottom: 4vh;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Ramabhadra', sans-serif;
+    color: ivory;
+}
+
+.register {
+    padding-top: 4vh;
+}
+
+.register-email {
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.register-pass {
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+    margin:  5px  5px;
+}
+
+.register-btn {
+    background-color: rgb(231, 231, 231);
+    font-family: 'Ramabhadra', sans-serif;
+    border-radius: 5px;
+}
+
+.register-btn:hover {
+    cursor: pointer;
+}
+
+.register-text {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Ramabhadra', sans-serif;
+    color: ivory;
+}

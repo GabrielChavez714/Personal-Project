@@ -1,0 +1,118 @@
+.Nav {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0px;
+    margin-right: 40px;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 19px;
+}
+
+.nav-links {
+    height: 8vh;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.cart {
+    height: 30px;
+    width: 30px;
+    margin: 5px 6px ;
+    padding: 8px 9px;
+}
+
+.cart:hover {
+    padding: 5px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 20px;
+}
+
+.nav-gear {
+    padding: 5px;
+    color: ivory;
+    
+}
+
+.nav-gear:hover {
+    margin: 5px 0 6px 0;
+    padding: 7px 8px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 30px;
+}
+
+.nav-map {
+    margin: 5px 0 6px 0;
+    padding: 8px 9px;
+    color: ivory;
+}
+
+.nav-map:hover {
+    margin: 5px 0 6px 0;
+    padding: 7px 8px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 30px;
+}
+
+.nav-info {
+    margin: 5px 0 6px 0;
+    padding: 8px 9px;
+    color: ivory;
+}
+
+.nav-info:hover {
+    margin: 5px 0 6px 0;
+    padding: 7px 8px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius: 30px;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    margin-right: 20px;
+    background-color: ivory;
+    border-radius: 5px;
+}
+
+@media (max-width: 1155px) {
+    .Nav {
+        margin-right: 90px;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-links {
+        height: 93vh;
+        width: 40%;
+        position: absolute;
+        right: 0px;
+        top: 7vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.767);
+        box-shadow: 0px 5px 16px -5px rgba(0,0,0,0.49);
+        opacity: 0;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .menu {
+        display: block;
+    }
+}

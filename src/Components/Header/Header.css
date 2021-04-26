@@ -1,0 +1,17 @@
+.Header {
+    width: 100vw;
+    height: 9vh;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: rgb(100, 162, 180);
+    font-family: 'Ramabhadra', sans-serif;
+    z-index: 3;
+    
+}
+
+.header-title {
+    font-size: 30px;
+    margin-left: 50px;
+    color: ivory;
+}
